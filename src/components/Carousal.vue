@@ -80,7 +80,7 @@ p {
 }
 .parallax {
   /* The image used */
-  background-image: url("@/assets/photos/property-2.jpg");
+  background-image: url("/property-2.jpg");
 
   /* Set a specific height */
   min-height: 80vh;

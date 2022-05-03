@@ -59,7 +59,7 @@
           </div>
           <div class="col-6">
             <img
-              src="@/assets/photos/property-5.jpg"
+              src="/property-5.jpg"
               class="img-fluid rounded-start"
               alt="..."
             />
@@ -69,7 +69,7 @@
         <div class="my-5 row d-flex">
           <div class="col-6">
             <img
-              src="@/assets/photos/property-6.jpg"
+              src="/property-6.jpg"
               class="img-fluid rounded-start"
               alt="..."
             />
@@ -102,7 +102,7 @@ export default {
 <style scoped>
 .parallax {
   /* The image used */
-  background-image: url("@/assets/photos/property-4.jpg");
+  background-image: url("/property-4.jpg");
 
   /* Set a specific height */
   min-height: 80vh;

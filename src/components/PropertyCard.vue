@@ -55,7 +55,7 @@ export default {
   props: ["property_info"],
   data() {
     return {
-      image_link: "@/assets/photos/property-2.jpg",
+      image_link: "/property-2.jpg",
     };
   },
 

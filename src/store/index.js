@@ -35,7 +35,7 @@ const store = createStore({
           ],
           smokking: false,
 
-          photo: "@/assets/photos/property-1.jpg",
+          photo: "/property-1.jpg",
         },
         {
           available: false,
@@ -66,7 +66,7 @@ const store = createStore({
           ],
           smokking: false,
 
-          photo: "@/assets/photos/property-4.jpg",
+          photo: "/property-4.jpg",
         },
       ],
       services: [
