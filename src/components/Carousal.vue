@@ -15,19 +15,18 @@
               type="button"
               class="btn btn-primary btn-lg dark px-5 py-2 fs-3"
             >
-              <!-- <router-link -->
-              <!-- class="" -->
-              <!-- :to="{ name: 'properties' }" -->
-              <!-- > -->
-              PROPERTIES
-              <!-- </router-link> -->
+              <router-link class="nav-link" :to="{ name: 'properties' }">
+                PROPERTIES
+              </router-link>
             </button>
 
             <button
               type="button"
               class="btn btn-dark btn-lg dark px-5 py-2 fs-3"
             >
-              ABOUT US
+              <router-link class="nav-link" :to="{ name: 'about-us' }">
+                ABOUT US
+              </router-link>
             </button>
           </div>
         </div>
@@ -98,5 +97,8 @@ p {
 .image {
   backdrop-filter: brightness(0.5);
 }
-/* Color of the navbar AFTER scroll */
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
 </style>

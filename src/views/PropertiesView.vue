@@ -65,6 +65,9 @@ export default {
   data() {
     return {};
   },
+  created() {
+    window.scrollTo(0, 0);
+  },
 };
 </script>
 <style scoped>
@@ -84,6 +87,10 @@ export default {
 }
 .image {
   backdrop-filter: brightness(0.4);
+}
+.card {
+  border: 0;
+  border-radius: 0;
 }
 
 .border {

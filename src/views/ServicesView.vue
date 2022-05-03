@@ -57,6 +57,9 @@
 import ServicesCard from "@/components/ServicesCard.vue";
 export default {
   components: { ServicesCard },
+  created() {
+    window.scrollTo(0, 0);
+  },
 };
 </script>
 <style scoped>
@@ -80,5 +83,8 @@ export default {
 .card {
   border: 0;
   border-radius: 0;
+}
+.border {
+  border-color: #fb6a19 !important;
 }
 </style>

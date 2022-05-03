@@ -41,6 +41,7 @@
               class="btn btn-light"
               type="submit"
               background-color="#d7bc6f"
+              @click="scroll"
             >
               CONTACT
             </button>
@@ -64,7 +65,10 @@ export default {
   },
   created() {},
   methods: {
-    send_code: async function () {},
+    scroll() {
+      const element = document.getElementById("footer");
+      element.scrollIntoView({ behavior: "smooth" });
+    },
   },
 };
 </script>

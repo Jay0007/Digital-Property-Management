@@ -71,7 +71,7 @@ const store = createStore({
       ],
       services: [
         {
-          logo: "",
+          logo: "file-earmark-check-fill",
           details: "Property acquisition",
         },
         {

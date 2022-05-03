@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-dark bottom-nav mt-auto">
+  <div class="bg-dark bottom-nav mt-auto" id="footer">
     <div class="container">
       <footer class="row py-5">
         <div class="col-12 col-md-4">
