@@ -70,7 +70,7 @@ export default {
 <style scoped>
 .parallax {
   /* The image used */
-  background-image: url("src/assets/photos/property-4.jpg");
+  background-image: url("@/assets/photos/property-4.jpg");
 
   /* Set a specific height */
   min-height: 80vh;

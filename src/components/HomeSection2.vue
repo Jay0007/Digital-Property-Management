@@ -35,19 +35,19 @@ export default {
           header: "TENANTS",
           details:
             "Our professional team will help you find your new home. Feel comfortable knowing your residence is professionally managed meaning you can count on us 24/7 for questions, maintenance/repairs or any other changes that arise.",
-          logo: "src/assets/photos/image-1.png",
+          logo: "@/assets/photos/image-1.png",
         },
         {
           header: "LANDLOADS",
           details:
             "Speak with our professional team to learn about how we can help you manage your properties while maximizing profits and the satisfaction of your tenants.",
-          logo: "src/assets/photos/image-2.png",
+          logo: "@/assets/photos/image-2.png",
         },
         {
           header: "PROPERTY MAINTENANCE",
           details:
             "Whether you need a one-time job done around the house or want someone on-call to respond to your tenant issues, our team of staff & contractors can get the job done.",
-          logo: "src/assets/photos/image-2.png",
+          logo: "@/assets/photos/image-2.png",
         },
       ],
     };
