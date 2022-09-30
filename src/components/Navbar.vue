@@ -29,9 +29,9 @@
           <router-link class="nav-link fs-4 mx-2" :to="{ name: 'about-us' }"
             >About Us</router-link
           >
-          <router-link class="nav-link fs-4 mx-2" :to="{ name: 'properties' }"
+          <!-- <router-link class="nav-link fs-4 mx-2" :to="{ name: 'properties' }"
             >Properties</router-link
-          >
+          > -->
         </div>
       </div>
       <div class="d-flex mx-2">

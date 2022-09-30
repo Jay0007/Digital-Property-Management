@@ -10,7 +10,7 @@
           </h1>
           <h5><small>LET US GUIDE YOUR HOME</small></h5>
           <p class="display-2">Find Your Dream Home</p>
-          <div class="my-5 d-flex justify-content-evenly">
+          <!-- <div class="my-5 d-flex justify-content-evenly">
             <button
               type="button"
               class="btn btn-primary btn-lg dark px-5 py-2 fs-3"
@@ -28,7 +28,7 @@
                 ABOUT US
               </router-link>
             </button>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

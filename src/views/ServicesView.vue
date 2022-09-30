@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="card text-white parallax">
+  <!-- <div> -->
+    <!-- <div class="card text-white parallax">
       <div
         class="image card-img-overlay d-flex align-items-center justify-content-center"
       >
@@ -31,13 +31,13 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="card text-center container border-white my-5">
       <div class="card-body">
         <p class="card-title fs-1">
           <strong> Services We Provide</strong>
         </p>
-        <hr class="border border-5 mx-auto" style="width: 10%" />
+        <hr class="border border-1 mx-auto" style="width: 10%" />
 
         <div class="my-5 row d-flex">
           <span
@@ -50,7 +50,7 @@
         </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 </template>
 
 <script>
@@ -63,15 +63,12 @@ export default {
 };
 </script>
 <style scoped>
-.parallax {
-  /* The image used */
+/* .parallax {
   background-image: url("/property-4.jpg");
 
-  /* Set a specific height */
-  min-height: 80vh;
-  height: 800px;
+  min-height: 40vh;
+  height: 300px;
 
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -79,12 +76,12 @@ export default {
 }
 .image {
   backdrop-filter: brightness(0.4);
-}
+} */
 .card {
   border: 0;
   border-radius: 0;
 }
 .border {
-  border-color: #fb6a19 !important;
+  border-color: black !important;
 }
 </style>

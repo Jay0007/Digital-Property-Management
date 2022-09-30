@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <!-- <div>
     <div class="card text-white parallax">
       <div
         class="image card-img-overlay d-flex align-items-center justify-content-center"
@@ -31,17 +31,17 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="card text-center container border-white my-5">
       <div class="card-body">
         <p class="card-title fs-1">
           <strong> Who we are?</strong>
         </p>
-        <hr class="border border-5 mx-auto" style="width: 10%" />
+        <hr class="border border-1 mx-auto" style="width: 10%" />
 
         <div class="my-5 row d-flex">
           <div class="col-6 text-start my-auto">
-            <p>
+            <!-- <p>
               We are real estate investors ourselves and approach our investment
               with the goal of long term success.
             </p>
@@ -55,6 +55,12 @@
             <p>
               Our vetting process yields the best suited tenants for the
               property.
+            </p> -->
+            <p>
+              Saldanha Ps InC is a family lead business and our clients are an extension of our family. 
+            </p>
+            <p>  
+              We began this journey wanting to plan for our family's future by investing in real estate. As our venture began and grew, we spoke to others about our journey, we realized that many had similar goals but didn't have the time to manage their investment properties or didn't know where to begin/ how to go about navigating being a landlord 
             </p>
           </div>
           <div class="col-6">
@@ -75,7 +81,7 @@
             />
           </div>
           <div class="col-6 text-start my-auto">
-            <p>
+            <!-- <p>
               As our venture was spread by word of mouth, we decided to provide
               this service to interested real estate investors looking to expand
               and diversify their portfolio in order to secure their financial
@@ -84,12 +90,15 @@
             <p>
               Saldanha Property Solutions Inc is a family business and our
               clients are an extension of the Saldanha family name.
+            </p> -->
+            <p>
+              We carefully took the time and research to ensure we are responsible home owners and landlords. We take great care of our homes and our tenants alike/ as investors you can trust that your home is in great hands. 
             </p>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 </template>
 
 <script>
@@ -103,15 +112,12 @@ export default {
 };
 </script>
 <style scoped>
-.parallax {
-  /* The image used */
+/* .parallax {
   background-image: url("/property-4.jpg");
 
-  /* Set a specific height */
-  min-height: 80vh;
-  height: 800px;
+  min-height: 40vh;
+  height: 300px;
 
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -119,12 +125,12 @@ export default {
 }
 .image {
   backdrop-filter: brightness(0.4);
-}
+} */
 .card {
   border: 0;
   border-radius: 0;
 }
 .border {
-  border-color: #fb6a19 !important;
+  border-color: #000000 !important;
 }
 </style>

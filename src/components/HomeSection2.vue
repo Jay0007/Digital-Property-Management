@@ -38,7 +38,7 @@ export default {
           logo: "/image-1.png",
         },
         {
-          header: "LANDLOADS",
+          header: "LANDLORDS",
           details:
             "Speak with our professional team to learn about how we can help you manage your properties while maximizing profits and the satisfaction of your tenants.",
           logo: "/image-2.png",
@@ -46,7 +46,7 @@ export default {
         {
           header: "PROPERTY MAINTENANCE",
           details:
-            "Whether you need a one-time job done around the house or want someone on-call to respond to your tenant issues, our team of staff & contractors can get the job done.",
+            "We have a team of professional contractors available to maintain the property when/ as needed. Scheduled inspections are conducted regularly by our teams to ensure high quality maintenance on the property for preventative measures.",
           logo: "/image-2.png",
         },
       ],
