@@ -112,11 +112,22 @@ const store = createStore({
           details: "Access to counsel",
         },
       ],
+      navbarProperties: {
+        position: "fixed-top",
+        dark: true,
+        elevation: 0,
+        intersectingCard: undefined,
+      },
     };
   },
   mutations: {
-    increment(state) {
-      state.count++;
+    async setAppBar(state, payload) {
+      state.navbarProperties = payload.token;
+    },
+  },
+  actions: {
+    setAppBar(context, payload) {
+      context.commit("setAppBar", payload);
     },
   },
 });

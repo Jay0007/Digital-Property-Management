@@ -10,7 +10,7 @@
         <span
           v-for="(card, index) in cards"
           :key="index"
-          class="col-8 my-3"
+          class="col-md-8 col-12 my-3"
           :class="{ 'ms-auto': index % 2 == 1 }"
         >
           <Card1 :card_info="card" />

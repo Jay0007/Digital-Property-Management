@@ -40,7 +40,7 @@
         <hr class="border border-1 mx-auto" style="width: 10%" />
 
         <div class="my-5 row d-flex">
-          <div class="col-6 text-start my-auto">
+          <div class="col-md-6 col-sm-12 order-last order-md-first text-start my-auto">
             <!-- <p>
               We are real estate investors ourselves and approach our investment
               with the goal of long term success.
@@ -63,7 +63,7 @@
               We began this journey wanting to plan for our family's future by investing in real estate. As our venture began and grew, we spoke to others about our journey, we realized that many had similar goals but didn't have the time to manage their investment properties or didn't know where to begin/ how to go about navigating being a landlord 
             </p>
           </div>
-          <div class="col-6">
+          <div class="col-md-6 col-sm-12 order-first order-md-last">
             <img
               src="/property-5.jpg"
               class="img-fluid rounded-start"
@@ -72,15 +72,15 @@
           </div>
         </div>
 
-        <div class="my-5 row d-flex">
-          <div class="col-6">
+        <div class="my-5 row d-flex flex-wrap">
+          <div class="col-md-6 col-sm-12 order-0 order-md-0">
             <img
               src="/property-6.jpg"
               class="img-fluid rounded-start"
               alt="..."
             />
           </div>
-          <div class="col-6 text-start my-auto">
+          <div class="col-md-6 col-sm-12 order-1 order-md-1 text-start my-auto ">
             <!-- <p>
               As our venture was spread by word of mouth, we decided to provide
               this service to interested real estate investors looking to expand
@@ -108,6 +108,22 @@ export default {
   components: { Carousal, HomeSection2 },
   created() {
     window.scrollTo(0, 0);
+  },
+  mounted() {
+    this.removeClassHeader();
+  },
+
+  beforeUnmount() {
+    // I switched the example from `destroyed` to `beforeDestroy`
+    // to exercise your mind a bit. This lifecycle method works too.
+  },
+  methods: {
+    removeClassHeader: () => {
+      console.log("Method");
+      let header = document.querySelector(".navbar");
+      header.classList.add("navbar1");
+      header.classList.remove("navbar2");
+    },
   },
 };
 </script>

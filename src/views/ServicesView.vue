@@ -1,6 +1,6 @@
 <template>
   <!-- <div> -->
-    <!-- <div class="card text-white parallax">
+  <!-- <div class="card text-white parallax">
       <div
         class="image card-img-overlay d-flex align-items-center justify-content-center"
       >
@@ -32,24 +32,24 @@
         </div>
       </div>
     </div> -->
-    <div class="card text-center container border-white my-5">
-      <div class="card-body">
-        <p class="card-title fs-1">
-          <strong> Services We Provide</strong>
-        </p>
-        <hr class="border border-1 mx-auto" style="width: 10%" />
+  <div class="card text-center container border-white my-5">
+    <div class="card-body">
+      <p class="card-title fs-1">
+        <strong> Services We Provide</strong>
+      </p>
+      <hr class="border border-1 mx-auto" style="width: 10%" />
 
-        <div class="my-5 row d-flex">
-          <span
-            v-for="(service, index) in $store.state.services"
-            :key="index"
-            class="col-4 my-3"
-          >
-            <ServicesCard :service_info="service" />
-          </span>
-        </div>
+      <div class="my-5 row d-flex">
+        <span
+          v-for="(service, index) in $store.state.services"
+          :key="index"
+          class="col-sm-12 col-md-4 my-3"
+        >
+          <ServicesCard :service_info="service" />
+        </span>
       </div>
     </div>
+  </div>
   <!-- </div> -->
 </template>
 
@@ -59,6 +59,22 @@ export default {
   components: { ServicesCard },
   created() {
     window.scrollTo(0, 0);
+  },
+  mounted() {
+    this.removeClassHeader();
+  },
+
+  beforeUnmount() {
+    // I switched the example from `destroyed` to `beforeDestroy`
+    // to exercise your mind a bit. This lifecycle method works too.
+  },
+  methods: {
+    removeClassHeader: () => {
+      console.log("Method");
+      let header = document.querySelector(".navbar");
+      header.classList.add("navbar1");
+      header.classList.remove("navbar2");
+    },
   },
 };
 </script>
@@ -83,5 +99,8 @@ export default {
 }
 .border {
   border-color: black !important;
+}
+.page-scrolled {
+  background-color: #212529;
 }
 </style>

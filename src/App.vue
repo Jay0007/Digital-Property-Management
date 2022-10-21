@@ -22,26 +22,6 @@ export default {
   data() {
     return {};
   },
-  mounted() {
-    window.addEventListener("scroll", this.removeClassHeader);
-  },
-
-  beforeUnmount() {
-    // I switched the example from `destroyed` to `beforeDestroy`
-    // to exercise your mind a bit. This lifecycle method works too.
-    window.removeEventListener("scroll", this.removeClassHeader);
-    console.log("removed");
-  },
-  methods: {
-    removeClassHeader: () => {
-      let header = document.querySelector(".navbar");
-      if (window.scrollY > 100 && !header.className.includes("page-scrolled")) {
-        header.classList.add("page-scrolled");
-      } else if (window.scrollY < 100) {
-        header.classList.remove("page-scrolled");
-      }
-    },
-  },
 };
 </script>
 <style>

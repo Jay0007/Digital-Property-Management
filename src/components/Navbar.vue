@@ -1,6 +1,9 @@
 <template>
-  <nav class="navbar fixed-top navbar-expand-lg">
-    <div class="container justify-content-around">
+  <nav
+    class="navbar navbar-expand-md navbar-dark"
+    :class="$store.state.navbarProperties.position"
+  >
+    <div class="container justify-content-md-around">
       <router-link class="navbar-brand" :to="{ name: 'home' }">
         <img src="../assets/logo/sps-logo.png" alt="" width="180" />
       </router-link>
@@ -16,37 +19,55 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div
-        class="collapse navbar-collapse d-flex justify-content-end ml-5"
+        class="navbar-collapse justify-content-end collapse"
         id="navbarNavAltMarkup"
       >
-        <div class="navbar-nav">
-          <router-link class="nav-link fs-4 mx-2" aria-current="page" to="/"
-            >Home</router-link
-          >
-          <router-link class="nav-link fs-4 mx-2" :to="{ name: 'services' }"
-            >Services</router-link
-          >
-          <router-link class="nav-link fs-4 mx-2" :to="{ name: 'about-us' }"
-            >About Us</router-link
-          >
+        <ul class="navbar-nav">
+          <li class="nav-item ms-auto">
+            <router-link class="nav-link fs-4 mx-2" aria-current="page" to="/"
+              ><span
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                >Home</span
+              ></router-link
+            >
+          </li>
+          <li class="nav-item ms-auto">
+            <router-link class="nav-link fs-4 mx-2" :to="{ name: 'services' }"
+              ><span
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                >Services</span
+              >
+            </router-link>
+          </li>
+          <li class="nav-item ms-auto">
+            <router-link class="nav-link fs-4 mx-2" :to="{ name: 'about-us' }"
+              ><span
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                >About Us</span
+              ></router-link
+            >
+          </li>
           <!-- <router-link class="nav-link fs-4 mx-2" :to="{ name: 'properties' }"
             >Properties</router-link
           > -->
-        </div>
-      </div>
-      <div class="d-flex mx-2">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <button
-              class="btn btn-light"
-              type="submit"
-              background-color="#d7bc6f"
-              @click="scroll"
-            >
-              CONTACT
-            </button>
-          </li>
         </ul>
+        <!-- <div class="d-flex mx-2">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <button
+                class="btn btn-light"
+                type="submit"
+                background-color="#d7bc6f"
+                @click="scroll"
+              >
+                CONTACT
+              </button>
+            </li>
+          </ul>
+        </div> -->
       </div>
     </div>
   </nav>
@@ -54,7 +75,6 @@
 
 <script>
 import { RouterLink } from "vue-router";
-
 export default {
   components: {
     RouterLink,
@@ -83,5 +103,16 @@ export default {
 }
 .nav-link:hover {
   color: #d7bc6f;
+}
+.navbar1 {
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+  background-color: #212529;
+}
+.navbar2 {
+  position: relative;
+  z-index: 1;
+  top: 0px;
 }
 </style>
