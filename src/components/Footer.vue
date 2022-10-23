@@ -20,11 +20,11 @@
               <span class="text-white px-0 mb-2 h5">Via Email:</span>&nbsp;
               <!-- <div class="nav-link p-0 text-muted"> -->
               <a
-                href="mailto:Darryl.saldanha@gmail.com"
+                href="mailto:saldanhapropertymanagement@gmail.com"
                 class="text"
                 target="_blank"
               >
-                <i class="bi bi-envelope-fill"></i> Darryl.saldanha@gmail.com
+                <i class="bi bi-envelope-fill"></i> saldanhapropertymanagement@gmail.com
               </a>
               <!-- </div> -->
             </li>
@@ -40,7 +40,7 @@
                   class="row"
                 > -->
                 <form
-                  action="https://formsubmit.co/jaysukhadiya123@gmail.com"
+                  action="https://formsubmit.co/saldanhapropertymanagement@gmail.com"
                   method="POST"
                 >
                   <div class="row mb-4">
