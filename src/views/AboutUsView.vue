@@ -56,8 +56,9 @@
               Our vetting process yields the best suited tenants for the
               property.
             </p> -->
+            <br class="d-md-none">
             <p>
-              Saldanha Ps InC is a family lead business and our clients are an extension of our family. 
+              Saladanha Property Solutions Inc. is a family business and our clients are an extension of our family. 
             </p>
             <p>  
               We began this journey wanting to plan for our family's future by investing in real estate. As our venture began and grew, we spoke to others about our journey, we realized that many had similar goals but didn't have the time to manage their investment properties or didn't know where to begin/ how to go about navigating being a landlord 
@@ -91,6 +92,7 @@
               Saldanha Property Solutions Inc is a family business and our
               clients are an extension of the Saldanha family name.
             </p> -->
+            <br class="d-md-none">
             <p>
               We carefully took the time and research to ensure we are responsible home owners and landlords. We take great care of our homes and our tenants alike/ as investors you can trust that your home is in great hands. 
             </p>

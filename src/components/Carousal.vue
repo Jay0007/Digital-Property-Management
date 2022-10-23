@@ -8,8 +8,8 @@
           <h1 class="display-1 lead card-title my-4 fw-bolder">
             Saldanha Property Solutions
           </h1>
-          <h5><small>LET US GUIDE YOUR HOME</small></h5>
-          <p class="display-2">Find Your Dream Home</p>
+          <h5><small>Service You Deserve</small></h5>
+          <p class="display-2">People You Trust</p>
           <!-- <div class="my-5 d-flex justify-content-evenly">
             <button
               type="button"

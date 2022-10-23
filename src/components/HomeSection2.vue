@@ -34,7 +34,7 @@ export default {
         {
           header: "TENANTS",
           details:
-            "Our professional team will help you find your new home. Feel comfortable knowing your residence is professionally managed meaning you can count on us 24/7 for questions, maintenance/repairs or any other changes that arise.",
+            "Our professional team will help you find your new home. Feel comfortable knowing your residence is professionally managed. You can count on us 24/7 for questions, maintenance/repairs or any other changes that arise.",
           logo: "/image-1.png",
         },
         {
@@ -46,7 +46,7 @@ export default {
         {
           header: "PROPERTY MAINTENANCE",
           details:
-            "We have a team of professional contractors available to maintain the property when/ as needed. Scheduled inspections are conducted regularly by our teams to ensure high quality maintenance on the property for preventative measures.",
+            "We only work with local and insured contractors to maintain our properties and conduct repairs. Our property managers regularly inspect the rentals to maintain the highest level of quality.",
           logo: "/image-2.png",
         },
       ],
