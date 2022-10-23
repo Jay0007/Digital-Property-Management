@@ -40,7 +40,7 @@
                   class="row"
                 > -->
                 <form
-                  action="https://formsubmit.co/saldanhapropertymanagement@gmail.com"
+                  action="https://formsubmit.co/jaysukhadiya123@gmail.com"
                   method="POST"
                 >
                   <div class="row mb-4">
@@ -58,7 +58,7 @@
                     <input
                       type="text"
                       name="mail"
-                      pattern=".+@gmail\.com"
+                      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
                       required
                       placeholder="abc@gmail.com"
                       class="col-md-8"
