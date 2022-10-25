@@ -6,6 +6,7 @@
           :src="$props.card_info.logo"
           class="img-fluid rounded-start"
           alt="..."
+          width="100" height="100"
         />
       </div>
       <div class="col-md-8">

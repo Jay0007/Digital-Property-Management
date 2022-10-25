@@ -61,7 +61,8 @@ export default {
 
 <style scoped>
 .border {
-  border-color: #FB6A19 !important;
+  color: #DAB656 !important;
+  border-color: #DAB656 !important;
 }
 hr {
   opacity: 1;
