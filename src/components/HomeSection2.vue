@@ -4,7 +4,7 @@
       <p class="card-title fs-1">
         <strong> WHAT MAKES US YOUR FIRST CHOICE?</strong>
       </p>
-      <hr class="border border-5 mx-auto" style="width: 20%" />
+      <hr class="border border-1 mx-auto" style="width: 20%" />
 
       <div class="my-5 row d-flex">
         <span
@@ -61,6 +61,9 @@ export default {
 
 <style scoped>
 .border {
-  border-color: #fb6a19 !important;
+  border-color: #FB6A19 !important;
+}
+hr {
+  opacity: 1;
 }
 </style>

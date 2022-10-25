@@ -8,8 +8,12 @@
           <h1 class="display-1 lead card-title my-4 fw-bolder">
             Saldanha Property Solutions
           </h1>
-          <h5><small>Service You Deserve</small></h5>
-          <p class="display-2">People You Trust</p>
+          <h2 class="fst-italic d-block d-md-none">Service You Deserve</h2>
+          <h2 class="fst-italic d-block d-md-none">People You Trust</h2>
+
+          <h5 class="d-none d-md-block fst-italic display-2">Service You Deserve</h5>
+          <h5 class="d-none d-md-block fst-italic display-2">People You Trust</h5>
+          <!-- <p class="display-2">People You Trust</p> -->
           <!-- <div class="my-5 d-flex justify-content-evenly">
             <button
               type="button"
