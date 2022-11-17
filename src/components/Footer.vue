@@ -40,7 +40,7 @@
                   class="row"
                 > -->
                 <form
-                  action="https://formsubmit.co/jaysukhadiya123@gmail.com"
+                  action="https://formsubmit.co/saldanhapropertymanagement@gmail.com"
                   method="POST"
                 >
                   <div class="row mb-4">
