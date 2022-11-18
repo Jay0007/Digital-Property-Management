@@ -19,12 +19,9 @@
             <li class="mb-3">
               <span class="text-white px-0 mb-2 h5">Via Email:</span>&nbsp;
               <!-- <div class="nav-link p-0 text-muted"> -->
-              <a
-                href="mailto:saldanhapropertymanagement@gmail.com"
-                class="text"
-                target="_blank"
-              >
-                <i class="bi bi-envelope-fill"></i> saldanhapropertymanagement@gmail.com
+              <a href="mailto:saldanhapropertymanagement@gmail.com" class="text" target="_blank">
+                <i class="bi bi-envelope-fill"></i>
+                saldanhapropertymanagement@gmail.com
               </a>
               <!-- </div> -->
             </li>
@@ -39,51 +36,24 @@
                   enctype="text/plain"
                   class="row"
                 > -->
-                <form
-                  action="https://formsubmit.co/saldanhapropertymanagement@gmail.com"
-                  method="POST"
-                >
+                <form action="https://formsubmit.co/saldanhapropertymanagement@gmail.com" method="POST">
                   <div class="row mb-4">
                     <span class="text-white col-md-4"> Name: </span>
-                    <input
-                      type="text"
-                      name="name"
-                      required
-                      placeholder="name"
-                      class="col-md-8"
-                    />
+                    <input type="text" name="name" required placeholder="name" class="col-md-8" />
                   </div>
-                  <div class="row mb-4 ">
+                  <div class="row mb-4">
                     <span class="text-white col-md-4"> E-mail: </span>
-                    <input
-                      type="text"
-                      name="mail"
-                      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-                      required
-                      placeholder="abc@gmail.com"
-                      class="col-md-8"
-                    />
+                    <input type="text" name="mail" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required
+                      placeholder="abc@gmail.com" class="col-md-8" :onkeyup="forceLower(this)" />
                   </div>
-                  <div class="row mb-4 ">
+                  <div class="row mb-4">
                     <span class="text-white col-md-4"> Comment: </span>
-                    <input
-                      type="text"
-                      name="comment"
-                      placeholder="write your comment"
-                      class="col-md-8"
-                    />
+                    <input type="text" name="comment" placeholder="write your comment" class="col-md-8" />
                   </div>
-                  <div class="row mb-4 ">
+                  <div class="row mb-4">
                     <span class="text-white col-md-4"> Phone: </span>
-                    <input
-                      type="tel"
-                      id="phone"
-                      name="phone"
-                      pattern="[0-9]{10}"
-                      required
-                      placeholder="phone number"
-                      class="col-md-8"
-                    />
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="phone number"
+                      class="col-md-8" />
                   </div>
                   <div class="d-flex justify-content-end">
                     <input type="submit" value="Send" class="col-3 p-2 me-2" />
@@ -123,9 +93,12 @@ export default {
   data() {
     return {};
   },
-  created() {},
+  created() { },
   methods: {
-    send_code: async function () {},
+    send_code: async function () { },
+    forceLower: function (strInput) {
+      strInput.value = strInput.value.toLowerCase();
+    }
   },
 };
 </script>
